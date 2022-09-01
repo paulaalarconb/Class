@@ -29,15 +29,15 @@ class Usuario {
 
 }
 
-const pau = new Usuario("Paula", "Alarcon", [{nombre:"Memorias de mis putas tristes", autor: "G.G Márquez"}],["Perlita"])
+const isa = new Usuario("Paula", "Alarcon", [{nombre:"Memorias de mis putas tristes", autor: "G.G Márquez"}],["Perlita"])
 
-pau.getFullName();
-pau.addMascota("Dora");
-pau.countMascotas();
-pau.addBook("1984", "George Orwell");
-pau.getBookNames();
+isa.getFullName();
+isa.addMascota("Dora");
+isa.countMascotas();
+isa.addBook("1984", "George Orwell");
+isa.getBookNames();
 
-// console.log(pau)
-// console.log(pau.getFullName())
-// console.log(pau.countMascotas())
-// console.log(pau.getBookNames())
+// console.log(isa)
+// console.log(isa.getFullName())
+// console.log(isa.countMascotas())
+// console.log(isa.getBookNames())
